@@ -1,0 +1,48 @@
+Version 0.1.1
+  * NEW EXTERNAL TOOLS:
+    * Tricky SffV1 Parser (see TrickyChangelog.txt for its changelog infos)
+
+  * New Features:
+    * Sff->Extract All: now extracts also "txt files" you can use to compile sff with sprmaker and/or sprmake2  
+    * Added the chance to "edit Pal" setting for an used palette (i.e. 1,1) loading from an existing file. The new button will be available in "Palette Section" and can be used only to edit a Pal you already using. Images that used that pal will be updated to the new palette config
+    * Added the chance to "edit Pal" setting for current sprite and all sprites that share the same palette (it is exactly as the feature before, but applied with a new button)
+    * Added the chance to apply a different color to current sprite choosing from one of alternate colors available (alternate colors must inserted before with "Palette Section")
+    * New Sff Format Supported: NomSpr (Nomen Reserved Sprite Format - for Nomen internal use Only)
+
+  * Sff Save Dialog:
+    * Added the chance to select the extension ".nomspr" in addition of the default extension ".sff" (useful if you want to save in NomSpr format and avoid confusion)  
+
+  * English corrections:
+    * replaced the word "actual" with the word "current" ("actual" was wrong.... I used it becouse I was confused by my native language... now the correct term replace the previous wrong one) (note for people who want to study Nomen sourcecode: where "actual" was used as variable in source code, "actual" was not changed in order to don't introduce errors... I know it could be confusing... but it is better)
+
+  * Sff Editor:
+    * New Buttons:
+       * New Button "Edit Current Image Pal Setting" added together with "Add Image" "Delete Image" and "Search Image" (-> see new Features)
+
+    * Palette Section:
+       * Edit Used Palette -> added a new button "edit Pal" into the subwindow (-> see the second new feature added)         
+    
+    * SffV1 Management:
+       * Improved SffV1 reading (SffV1 loading function reprogrammed and improved: see "Fixed Bugs")
+
+  * Fixed Bugs:
+    * fixed critical bug #3366063: Rarely Nomen can Fail to save SffV1 returning a critical error
+    * fixed critical bug #3372617: Palette Assigning Problem: During SffV1 loading Pal 1,1 is assumed ALWAYS to be the first pal encountered in Sff even if the pal 1,1 should be another one. (Now solved. Now the real pal 1,1 will be however swapped in order to be the first pal in list when sff is loaded)
+    * fixed bug #3375933: Nomen Asks confirmation to close program even if the sff was saved when you saved in SffV1 format
+
+
+Version 0.1 (first release):
+  * Menu
+    * Menu "Sff" activated
+    * Menu "Help" activated
+
+  * Toolbar:
+    * Working Items: "Save All", "Close All", "Sff"
+
+  * New Sections:
+    * Added Sff Editor
+
+
+
+-------------------------------
+Notes: bugs are identified with the "artifact id" assigned by sourceforge (so the fact it exist, for example, the bug #3375933 doesn't mean there were 3,375,933 bugs but simply that we are speaking about the bug identified by sourceforge with that ID. See NOMEN sourceforge bug tracker for a list of known bugs (or to report one you noticed)

@@ -1,0 +1,76 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+|       2 D  F I G H T E R  M A K E R  2 N D .        |
+|                                v1.02                |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                     Read-Me                         |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+| General Info                                        |
+|                                                     |
+| 2D Kakutou Tsukuro 2nd / 2D Fighter Maker 2nd       |
+| 2001, Enterbrain, Inc.                              |
+| Fighting Games Creator                              |
+| Translated to English by Desert Eagle               |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                    OBSERVATIONS                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+| Bugs                                                |
+|                                                     |
+| It Still have some little "bugs"                    |
+| here the list...                                    |
+|                                                     |
+| - Some Words Still in Japanese                      |
+| - The Font "MS Ui Gothic" not changed :(            |
+| - The System Game Over/Continue of Game Demo have   |
+|   some problems                                     |
+|                                                     |
+| If you find more Bugs or you know how to fix them   |
+| mail-me or ICQ-me                                   |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                      Credits                        |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+| Translation                                         |
+|                                                     |
+|  - Desert Eagle                                     |
+|                                                     |
+| Beta Testing                                        |
+|                                                     |
+|  - Kletian                                          |
+|                                                     |
+| Demo Game                                           |
+|                                                     |
+|  Engine     / Desert Eagle                          |
+|  Screenpack / Kiss72                                |
+|  Chars      / Ken by Desert Eagle, Terry by Kiss72  |
+|  Stages     / Desert Eagle                          |
+|                                                     |
+| Thankzzzzzzzzzz to                                  |
+|                                                     |
+| Kiss72  / for his works                             |
+| Goggyto / for some tutorials                        |
+| Shadowlord / my friend, it always help me in my     |
+| translations...                                     |
+| Kletian / for testing Fighter maker ^^'             |
+| Toda Galera do #MU / ...                            |
+|                                                     |
+| Links...                                            |
+|                                                     |
+| www.mgbr.net                                        |
+| www.makeruniverse.com                               |
+| www.fighteruniverse.z6.com.br                       |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                      Contact                        |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+|  Desert Eagle (cryptodeath@yahoo.com.br)            |
+|                                                     |
+|  ICQ - 190634476    IRC - #FM2k2 / Brasnet          |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

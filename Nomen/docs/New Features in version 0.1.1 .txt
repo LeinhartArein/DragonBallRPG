@@ -1,0 +1,81 @@
+As you probably know, while I am releasing this 0.1.1 (a bugfix release), the prject Nomen is freezed for unknown time.
+My personal problems are long-to-solve and I cannot know when and if future release will be done
+
+However seeing the fact I did this bugfix I release it even if in some parts is not compleately tested (it is my fault).
+I have no more time remaining so I trying to say things in rush.
+
+This why the documentation of Nomen (except for "Tricky SffV1 Parser") is not updated with the changes of 0.1.1
+
+This file will explain in brief only the new features (for a complete report of changes done see "changelog") and must read in association with the rest of the documentation.
+
+I will try (when I have time) to re-create an organized documentation, adjusting also those weird htmls with better ones (in the meantime I learned something about html), including both the context of the current htmls and of the current text file
+
+-------------------------------------------------------
+INDEX OF NEW FEATURES:
+-------------------------------------------------------
+
+1. Extracting Texts
+2. Palette Section: A new function Included
+3. The new button "current frame palette" (the one that is located near "add sprite" "find sprite" "delete sprite"
+
+
+------------------------------------------------------
+Feature 1: Extracting Texts
+------------------------------------------------------
+
+It is a new feature added to "Extract All" (Menu "Sff")
+
+Now "Extract All" will extract also two text files: SffV1.txt and SffV2.txt
+
+SffV1.txt -> it will be created by "Extract ALL" ONLY IF you are extracting images in .pcx format AND ONLY IF you are extracting palette in .act format (or both in .act and .pal as default)
+
+SffV2.txt -> it will be created by "Extract ALL" ONLY IF you are extracting images in .pcx/.png format AND ONLY IF you are extracting palette in .act format (or both in .act and .pal as default)
+
+---
+
+Those files will be extracted together with all the other files that "Extract All" extracts (images and palettes)
+
+SffV1.txt is a text file ready-to-use in order to re-create the Sff with "sprmaker". A "SffV1.sff" will be created if you do it (you must than rename it manually)
+SffV2.txt is a text file ready-to-use in order to re-create the Sff with "sprmake2". A "SffV2.sff" will be created if you do it (you must than rename it manually)
+
+Usage Examples (you should run it by prompt going inside the folder that contains texts and images):
+
+path_to_sprmaker/sprmaker < SffV1.txt
+path_to_sprmake2/sprmake2 SffV2.txt
+
+
+
+---------------------------------------------------------
+Feature 2: New function in Palette Section
+---------------------------------------------------------
+
+If you are trying to edit a palette selected from the list of "Used Palette" (example: 1,1) you will see that the "edit" sub-window will now allow you not only to change the pal group, but also to change the palette configuration loading another one from file
+
+This operation will change completely the palette with the one you selected.
+The modification will be applied to the palette itself and also to all images that use that palette
+
+
+
+---------------------------------------------------------
+Feature 3: New button "Current Frame palette"
+---------------------------------------------------------
+
+This new button allow some palette changes to current image AND TO ALL IMAGES THAT SHARES THE SAME PALETTE
+
+This button allow two kinds of different operations
+
+1) The default one is to apply a different color from ones available
+
+This is useful to have a preview of alternate colors of your char.
+You can selected one of the alternate palette(s) for that palette group (for example if the image use palette 1,1 you can select palette 1,2 if present)
+
+This means that the alternate palette(s) must be already included. If you didn't you must add them using "Palette Section" and "add extra palette" (for example add extra palettes for group 1)
+
+Apply will change the color of all images for that palette however it should not change the image themself.
+
+However as a note I will inform you that if you use this feature and THAN you use "extract all" you could extract the images with the applied color (the alternate color you selected) instead of the "sff one".
+
+
+2) Optionally you can choose the second option that will allow you to change REAL palette configuration for current image and images that will share the same pal
+
+This operation is exactly the same as "Feature 2" with only a difference: In feature 2 you select the palette to change. Here the palette to change will depend of the palette used by current frame you are changing

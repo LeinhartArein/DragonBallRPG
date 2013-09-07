@@ -1,0 +1,24 @@
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+|       2 D  F I G H T E R  M A K E R  2 N D .        |
+|                                v1.02                |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                   Jogo Demo e RTP                   |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+| Este Pacote de Arquivos Contém todos os Gráficos e  |
+| sons utilizados pelo 2D Fighter Maker 2nd           |
+|                                                     |
+| Traduzido por Desert Eagle                          |
+| Jogo Demo por Desert Eagle e Kiss72                 |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                      Contato                        |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+|                                                     |
+|  Desert Eagle (cryptodeath@yahoo.com.br)            |
+|                                                     |
+|  ICQ - 190634476    IRC - #FM2k2 / Brasnet          |
+|                                                     |
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

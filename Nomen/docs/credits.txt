@@ -1,0 +1,32 @@
+Nomen - A New Opensource Mugen Editor made by Nobun
+
+Copyright (c) Nobun 2010-2011
+
+-----------------------------------------------
+
+Credits
+
+------------------------------------------------
+
+
+Main Programmer: 
+Nobun
+
+
+Other Programmers:
+(none at the moment)
+
+
+Images:
+Almost all images are made by Oxygen
+
+
+External Contributors:
+Serio                  (Intense and serious beta-testers. He give me some very nice ideas)
+Tunglashor             (he helped me a lot on understanding sffv2 logic)
+www.qt-italia.org      (they answered to a lot of my questions about qt usage)
+Squall Lionheart       (he accepted to talk about this project and he give me some nice ideas)
+
+
+Translators:
+(none at the moment)

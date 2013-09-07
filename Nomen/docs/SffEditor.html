@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>kword8kCxVa.odt</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.1  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20101117;1115000">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-left: 2.01cm; margin-right: 2.01cm; margin-top: 1.48cm; margin-bottom: 1.48cm }
+		P.standard { color: #000000; font-family: "Sans Serif"; font-size: 10pt; text-align: left; text-decoration: none }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="it-IT" BGCOLOR="#ffffff" DIR="LTR">
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=6>Nomen</FONT></P>
+<P CLASS="standard" ALIGN=CENTER>Copyright &copy; Nobun 2010-2011</P>
+<P CLASS="standard" ALIGN=CENTER>License: GPL v3</P>
+<P CLASS="standard" ALIGN=CENTER>&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=5 STYLE="font-size: 20pt">Using
+the Sff</FONT> <FONT SIZE=5 STYLE="font-size: 20pt">Editor</FONT></P>
+<P CLASS="standard" ALIGN=CENTER>&nbsp;</P>
+<P CLASS="standard">Here we assume you read &quot;<A HREF="Sff.html">Loading,
+Creating and Edit an Sff</A>&quot;. Read it if you didn't do before</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>1. Adding / Removing
+Images</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">The button &quot;Add image&quot; allow you to add
+one or more image at one time. Images (if more than one at a time)
+will be added in alphabetical order (in the same order they appear in
+loading window). During the addition, Nomen will try to see, for
+every image, if palette used by image is already in list or not. If
+it is not in list, Nomen will also add the palette in list and will
+decide an arbitrary value.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Unlike &quot;Add Image&quot;, the &quot;remove
+image&quot; remove ONLY one image at time. Remove Image will remove
+the image you are actually seeing</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>2. Searching Image /
+Navigate Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">The button &quot;Search Image&quot; allow you to
+search a single image. You can search an image also passing a groupno
+only. In that case, Nomen will return the first image in Sff with
+that groupno.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">You can also navigate Sff throughout the scroll
+bar</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>3. Zooming and
+Background</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">You can Zoom in or Zoom out the images. Every
+click to &quot;zoomin&quot; will increase (* 2) the ratio of images
+viewing, while every click to &quot;zoomout&quot; will decrease (/2)
+the ration of images viewing. There is also a central Zoom button
+that is able to restore zoom ratio to 1:1 (original / true size).</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">There is also a scroll bar under zoom buttons.
+You can change background color (default: black)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">All those changes are only for view. They didn't
+have any type of effect on Sff itself.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>4. The Palette Section</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">The palette section is not a palette editor.
+Palette Section is a Window that shows you palette infos, divided in
+two sections:</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Extra Palettes -&gt; this is for sffv2 usage
+only. Extra palettes are, basically, the alternate colors for your
+character. Usually Extra Palettes will be added as group 1 and will
+be from 1,2 to 1,6 (becouse palette 1,1 is used by sprite). You can
+Add palettes, Remove palettes, or Reduce palettes to 32 colors (see
+note). When you add extra palette by groupno, Nomen will check for
+free (unused) itemno for that groupno. Usually it is only for group 1
+(that has 1,1 used) so you should use for group 1 and obtain palettes
+from 1,2 to 1,6</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Used Palettes -&gt; this section, normally,
+doesn't require any type of change. If you followed the instructions
+described before in section &quot;<A HREF="Sff.html#Creating%20a%20New%20Sff">Creating
+a New Sff</A>&quot;. An &quot;Edit Palette&quot; is available to
+allow you to change groupno of pal if you require to fix the palette
+1,1 assignement (see &quot;the importance of pal 1,1&quot;) or if you
+require to Reduce Palettes to 32 colors (see note)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">NOTE: 32 colors image support (for sffv2 only) is
+a little advanced and works differently than in sprmake2. See &quot;<A HREF="#Sff and 32-colors">Sff
+and 32-colors</A>&quot;</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>5. Advanced</FONT></P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4><I>5.1. Palette
+automation system</I></FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">When loading a new palette from an Sffv1, from a
+new image that has a new palette not already present, Nomen will
+assign an arbitrary value.</P>
+<P CLASS="standard">Nomen will check for first groupno free (starting
+from 1). So this is why it is very important to add to add as a first
+image one of that images of main character: the first palette
+auto-defined will be the palette 1,1.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4><I>5.2 the importance
+of palette 1,1</I></FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Palette 1,1 is very important <U>for characters</U>.
+Palette 1,1 behave in similar way in Sffv1 and Sffv2.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Sffv1 -&gt; Images that refers to palette 1,1
+will be the &quot;shared images&quot;. All other images (images with
+palettes NOT 1,1) will be the individual ones. If you plan to save an
+Sffv1 remember that the function of palette 1,1 (in Nomen) is to
+distinguish from shared images (main characters images) and
+individual images (like big portrait, or other images that uses
+different color set)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Sffv2 -&gt; Images that refers to palette 1,1
+will be managed by Mugen 1.0 when loading characters. Infact Mugen
+1.0 will apply (instead of palette 1,1) the palette 1,x (where &quot;x&quot;
+is the color selected). So, for example, Mugen 1.0 will replace
+palette 1,1 with palette 1,2 (from images that uses that pal) if you
+selected color 2 for that character</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4><I>5.3. Sff</I></FONT>
+<FONT SIZE=4><I>and 32-colors</I></FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Nomen will support the 32-color reduction for
+sffv2 usage only (if you try to save 32-colors image in sffv1, Nomen
+will re-expand palettes, filling unused colors with color 0,255,0).</P>
+<P CLASS="standard">The Elecbyte Sffv2 format allows you to manage
+those particular type of images (5-bit) that normally doesn't exist.
+This allow, in particular, to save a lot of space more on HDD when
+saving Sff, this thank of the advantaged lz5 compression format (also
+rle5 format available, but less efficient).</P>
+<P CLASS="standard">Nomen is able to decode all type of sff and can
+also create a 5-bit images archive in sff with lz5 compression. This
+a low a better performance than using rle5 or using 8-bit images with
+rle8 compression.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Unlike sprmake2, you cannot decide what colors to
+remove. When you decide to reduce palettes to 32-colors (5-bit) all
+colors from color 32 to color 255 will be removed. So, if your images
+use less than 32 colors, be sure (before reducing palette) that those
+images don't use color index higher than 31 (as usual color 0 is for
+background in Mugen).</P>
+<P CLASS="standard">Another problem is that, if you reduce palette,
+you will not see any changes in images viewed in SffEditor. You must
+control before proceeding.</P>
+<P CLASS="standard">If you are not sure, don't use color reduction.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><B>Performance comparison</B>:</P>
+<P CLASS="standard">Nomen is not as efficient as sprmake2 when using
+lz5 compression. However is more efficient than using official
+sprmake2 rle5 compression. Here is the comparison results if you try
+to build kfm.sff</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><U>Sffv2 5bit-comparison</U>:</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Sprmake2 -&gt; lz5 compression -&gt; 201,6 kb
+(206.449 bytes)</P>
+<P CLASS="standard">Nomen ----&gt; lz5 compression -&gt; 214,6 kb
+(219.734 bytes)</P>
+<P CLASS="standard">Sprmake2 -&gt; rle5 compession -&gt; 298,1 kb
+(305.288 bytes)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">(Sffv2 8bite comparison: exactly equal as
+sprmake2)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4><I>5.4. A note about
+how Nomen</I></FONT> <FONT SIZE=4><I>writes in Sffv1 Format</I></FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Sffv1 format is very lacked. Any person who used
+winmugen had the experience about the sffv1 colors bug. Nomen tryes
+to avoid this problem, forcing a particular (and tested) order of
+images during saving. THe sequence of the images, in the binary sff
+file, will be this one:</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><U>Characters</U>:</P>
+<P CLASS="standard">First Image: 9000,0 (short portrait)</P>
+<P CLASS="standard">Following Images: Shared Images Group0</P>
+<P CLASS="standard">Following Images: All other shared Images</P>
+<P CLASS="standard">Following Images: Individual Images except 9000,1
+(if any)</P>
+<P CLASS="standard">Last Image: 9000,1</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><U>Others</U>:</P>
+<P CLASS="standard">Images Reordered by Pals (from 1,1 to followings)
+and sharing colors when possible</P>
+<P CLASS="standard">(more or less like the structure of fightfx.sff)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">&nbsp;</P>
+</BODY>
+</HTML>

@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
+	<TITLE>Load, Create, Edit Sff</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.1  (Win32)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGED" CONTENT="20101117;1172800">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin-left: 2.01cm; margin-right: 2.01cm; margin-top: 1.48cm; margin-bottom: 1.48cm }
+		P.standard { color: #000000; font-family: "Sans Serif"; font-size: 10pt; text-align: left; text-decoration: none }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="it-IT" BGCOLOR="#ffffff" DIR="LTR">
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=6>Nomen</FONT></P>
+<P CLASS="standard" ALIGN=CENTER>Copyright &copy; Nobun 2010-2011</P>
+<P CLASS="standard" ALIGN=CENTER>License: GPL v3</P>
+<P CLASS="standard" ALIGN=CENTER>&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=5 STYLE="font-size: 20pt">Loading,
+Creating and Edit an Sff</FONT></P>
+<P CLASS="standard" ALIGN=CENTER>&nbsp;</P>
+<P CLASS="standard">When Nomen loads or saves an sff, he automates a
+lot of actions.</P>
+<P CLASS="standard">This big automation will avoid to create panics
+and it is fine for an editor that tries to avoid to force too boring
+actions for users. That is, in my opinion, also the best way to allow
+Nomen to work both in sffv1 and sffv2 (that are totally different)
+without asking too many actions to users for every single operation.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">On other hand, this big automation means a little
+attention by user that is using Nomen. Here you will find a list of
+things and explainations about what to do (or what to don't do).</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>1. Create a New Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">In order to create a new sff, select the &quot;New&quot;
+item from &quot;Sff&quot; menu.</P>
+<P CLASS="standard">A new screen will appear. Now you can start with
+adding images.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">The first thing to care of is this one: when you
+are creating a new sff it is VERY VERY important, if you are creating
+an sff for a character, to add as a first image one of that images of
+main character. For example: one image from standing animation.</P>
+<P CLASS="standard">To understand why see: &quot;<A HREF="SffEditor.hrml#Palette%20automation%20System">palette
+automation system</A>&quot; and &quot;<A HREF="SffEditor.html">the
+importance of palette 1,1</A>&quot;</P>
+<P CLASS="standard">The second thing to care of, <U>but only if you
+want to create a sffv1 file</U>, is to HAVE at least one of 9000,0 o
+9000,1 image (small portrait / big portrait) if you are creating a
+sff for character.</P>
+<P CLASS="standard">If you, instead, are creating a <U>NON-character
+sffv1</U> , you must AVOID to use both 9000,0 and 9000,1 image.</P>
+<P CLASS="standard">This because, one of Nomen automations, is the
+sffv1 treatment: if Nomen finds a 9000,0 image or a 9000,1 image, the
+sffv1 file will be saved as a shared sff (character sff), else if
+Nomen doesn't find neither 9000,0 nor 9000,1 image, the sffv1 file
+will be saved as an individual sff (non-character sff)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>2. Load an Existing Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">In order to load an existing sff you need to
+select the &quot;load&quot; item from &quot;Sff&quot; menu. You don't
+need to know the format of sff you are trying to load. Nomen will
+load it for you regardless of his format.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Nomen, infact, will load sff internally using an
+independent data structure that is inspired by sffv2 structure
+(becouse it has a lot of params more) but it is not totally equal to
+it. When loading an sffv1 Nomen will arbitrary decide palette values,
+using the same method used by Nomen when you are adding a new image
+(see: &quot;<A HREF="SffEditor.html#Palette%20automation%20System">palette
+automation system</A>&quot;)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>3. Extracting Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">When you load an sff, you can also extract all
+things it contains.</P>
+<P CLASS="standard">There are 3 items in menu: Extract All, Extract
+Actual Image, Extract Palettes Only</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><U>Extract All</U> will extract all images AND
+palettes inside sff (also in sffv1)</P>
+<P CLASS="standard"><U>Extract Actual Image</U> will extract only the
+image you are actually viewing in Sff Editor</P>
+<P CLASS="standard"><U>Extract Palettes only</U> will extract only
+the palettes (all palettes) inside sff (also if sffv1)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><B>Filenames</B>: filenames will be saved as
+&quot;gggg-ii.ext&quot; where &quot;gggg&quot; is the number for
+groupno (ex. 0010 for 10) and &quot;ii&quot; is the name for itemno
+(ex. 02 for 2) and &quot;ext&quot; is the extension (&quot;png, pcx
+or bmp&quot; for images, &quot;pal or act&quot; for palettes).</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><B>Extracting Destination Folder</B>:</P>
+<P CLASS="standard"><U>Under Windows</U>: &lt;Nomen_path&gt;/snap/FOLDER</P>
+<P CLASS="standard"><U>Under Linux</U>: $HOME/.nomen/snap/FOLDER</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Where &quot;FOLDER&quot; is the name of sff (for
+example if the file is &quot;kfm.sff&quot;, FOLDER = &quot;kfm&quot;)</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">Under Windows &lt;Nomen_path&gt; means the path
+where &quot;Nomen&quot; stands. So, if for example Nomen stands at
+&quot;c:\Nomen&quot; and you are extracting &quot;kfm.sff&quot; you
+will find file extracted at</P>
+<P CLASS="standard">&quot;c:\Nomen\snap\kfm&quot;</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard"><B>NOTE</B>: If you are creating a new sff, the 3
+items for extracting (Extract all, etc) will remain disabled until
+you save the sff for the first time. After saving sff, the 3 items
+for extracting will be enabled</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>4. Save Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">By default, Nomen saves Sff as a Sffv2. If you
+want to save Sff using the old SffV1 format you must select &quot;Sff
+1.0&quot; format before saving. To do it, go to &quot;Sff-&gt;Select
+Sff Output Format&quot; to change the format for saving Sff.</P>
+<P CLASS="standard">Remember: When you quit Nomen and you run it
+again, Nomen will start always with Sffv2 as default format for
+saving</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">NOTE: There is also a &quot;Remove Duplicates&quot;
+checkbox in &quot;Sff&quot; Menu. If checked, Nomen will identify
+duplicate images (for example if image 5000,0 and 5010,0 have the
+same image inside) and, during saving, will save space in sff using
+linking images for duplicates. If unchecked, Nomen will save all
+images, without using linking images. By default &quot;Remove
+Duplicates&quot; is checked. It is suggested to leave it checked, and
+to remove check ONLY in the rare case the process for matching
+duplicates is too long.</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard" ALIGN=CENTER><FONT SIZE=4>5. Edit Sff</FONT></P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">When Opening an Existing Sff (or creating a new
+Sff) the Sff Editor will open. If you close Sff Editor, you DON'T
+close Sff. You can recall Sff Editor to edit the actual Sff opened,
+using the toolbar button &ldquo;Sff&rdquo;&nbsp;</P>
+<P CLASS="standard">See &quot;<A HREF="SffEditor.html">Using Sff
+Editor</A>&quot; for more details</P>
+<P CLASS="standard">&nbsp;</P>
+<P CLASS="standard">&nbsp;</P>
+</BODY>
+</HTML>
