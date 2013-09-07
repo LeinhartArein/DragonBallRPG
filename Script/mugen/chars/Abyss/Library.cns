@@ -1,0 +1,282 @@
+;Sludge's Sub Routine's
+;If you pilfer from this you must give credit!
+
+;Library:
+
+;7000 - Helper Fading (fast) away and dying
+;7001 - Hyper BG FX
+;7002 - Helper Fading Away (Frozen Animation) Must Set Animation Vars!!
+;7003 - Helper Fading (slow) away and dying
+
+;--------------
+;Helper Fading Away
+[Statedef 7000]
+movetype = I
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 1
+value = 255
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = 1
+v = 1
+value = -15
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = var(1), 255
+
+[State 0, DestroySelf]
+type = DestroySelf
+trigger1 = var(1) <= 0
+
+;Hyper BG FX
+[Statedef 7001]
+anim = 9801
+
+[State 0, ParentVarSet]
+type = ParentVarSet
+trigger1 = time = 0
+v = 0
+value = 1
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = (parent, var(0) != 0)
+flag = noBG
+flag2 = noFG
+
+[State 0, AssertSpecial]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+flag2 = invisible
+
+[State 0, PlayerPush]
+type = PlayerPush
+trigger1 = 1
+value = 0
+
+[State 3000, Hyper Portrait]
+type = explod
+trigger1 = Time = 0
+anim = 6667
+id = 307
+postype = back
+sprpriority = -2
+supermovetime = -1
+removetime = 60
+pos = 0,0
+bindtime = -1
+removeongethit = 1
+scale = 1.1,1.1
+ownpal = 1
+
+[State 3000, HyperBg]
+type = Explod
+trigger1 = time = 0
+anim = 9981
+pos = ifelse(facing = 1,0,1),0
+id = 304
+sprpriority = -3
+supermovetime = -1
+postype = back
+bindtime = -1
+removetime = -2
+removeongethit = 1
+facing = 1;ifelse(Facing = -1, -1, 1)
+shadow = 68,68,68
+ownpal = 1
+ignorehitpause = 1
+
+[State 3000, HyperBg]
+type = Explod
+trigger1 = time = 0
+anim = 9999
+pos = 161,0
+id = 305
+sprpriority = -4
+supermovetime = -1
+postype = back
+bindtime = -1
+removetime = -1
+removeongethit = 1
+facing = 1
+shadow = 68,68,68
+ownpal = 1
+ignorehitpause = 1
+
+[State 3000, HyperBg]
+type = Explod
+trigger1 = time = 0
+anim = 9999
+pos = 160,0
+id = 305
+sprpriority = -4
+supermovetime = -1
+postype = back
+bindtime = -1
+removetime = -1
+removeongethit = 1
+facing = -1
+shadow = 68,68,68
+ownpal = 1
+ignorehitpause = 1
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 1
+value = 255
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = (parent, var(0) = 0)
+v = 1
+value = -15
+
+[State 0, ModifyExplod]
+type = ModifyExplod
+trigger1 = time > 1
+ID = 305
+trans = addalpha
+alpha = var(1),255
+
+[State 0, BGPalFX]
+type = BGPalFX
+trigger1 = 1
+time = 1
+color = 255 - var(1)
+
+[State 0, ParentVarSet]
+type = ParentVarSet
+trigger1 = (parent, movetype = H)
+trigger2 = (parent, stateno = 0)
+v = 0
+value = 0
+
+;-------------
+;Hyper Combo Finish
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = !p2life && var(18) = 0
+value = S6,3
+
+[State 3000, HyperBg]
+type = Explod
+trigger1 = !p2life && var(18) = 0
+anim = 9981
+pos = ifelse(facing = 1,0,1),0
+id = 304
+sprpriority = -3
+supermovetime = -1
+postype = back
+bindtime = -1
+removetime = -2
+removeongethit = 1
+facing = 1;ifelse(Facing = -1, -1, 1)
+shadow = 68,68,68
+ownpal = 1
+ignorehitpause = 1
+
+[State 0, RemoveExplod]
+type = RemoveExplod
+trigger1 = !p2life && var(18) = 0
+id = 305
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = !p2life && var(18) = 0
+v = 18
+value = 1
+;-------------
+
+[State 0, RemoveExplod]
+type = RemoveExplod
+id = 305
+trigger1 = var(1) <= 0
+trigger2 = var(18) = 1
+
+[State 0, DestroySelf]
+type = DestroySelf
+trigger1 = var(1) <= 0
+trigger2 = var(18) = 1
+
+;--------------
+;Helper Fading Away (Frozen Animation) Must Set Animation Vars!!
+[Statedef 7002]
+movetype = I
+
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 10
+value = var(1)
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 20
+value = var(2)
+
+[State 0, ChangeAnim]
+type = ChangeAnim
+trigger1 = 1
+value = var(10)
+elem = var(20)
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 1
+value = 255
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = 1
+v = 1
+value = -15
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = var(1), 255
+
+[State 0, DestroySelf]
+type = DestroySelf
+trigger1 = var(1) <= 0
+
+;--------------
+;Helper Fading Away, Slowly
+[Statedef 7003]
+movetype = I
+
+[State 0, VarSet]
+type = VarSet
+trigger1 = time = 0
+v = 1
+value = 255
+
+[State 0, VarAdd]
+type = VarAdd
+trigger1 = 1
+v = 1
+value = -5
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = addalpha
+alpha = var(1), 255
+
+[State 0, DestroySelf]
+type = DestroySelf
+trigger1 = var(1) <= 0
+

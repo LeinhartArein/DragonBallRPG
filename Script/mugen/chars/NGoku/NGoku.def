@@ -1,0 +1,30 @@
+;==============================
+;Goku
+;	By Sabre
+;==============================
+
+;---------------------
+;Character Information
+;---------------------
+[Info]
+name			= "Goku"	;Name of character
+displayname		= "Son-Goku"				;Name of character to display
+versiondate		= 07,27,2002			;Version date of character
+mugenversion	= 04,14,2002			;Version of M.U.G.E.N character works on
+author		= "Sabre"		;Character author name
+pal.defaults	= 1, 2			;Default palettes in order of preference
+
+;---------------
+;Character Files 
+;---------------
+[Files]
+cmd			= NGoku.cmd			;Command Set
+cns			= NGoku.cns			;Data
+st			= NGoku.cns			;States
+stcommon		= NGoku.cns			;Common States
+sprite		= NGoku.sff			;Sprite
+anim			= NGoku.air			;Animation
+sound			= NGoku.snd			;Sound
+pal1			= NGoku.act			;Original
+pal2			= SPal.act			;My (Sabre's) Palette
+

@@ -1,0 +1,28 @@
+ Abyss
+ Release Date: 11/21/2007
+ By: Sludge
+ E-Mail: Sludgery@yahoo.com
+
+
+Credits
+-----------------------------------------
+ I got the abyss sprites from a sprite pack that was released by thor. I also got some form1
+sprites from a sprite back by wuwo off mugenchina. Eternaga made the great
+portrait! I got all the sounds from a sound rip pack that was released by Cloudius & 
+One Winged Angel. Major thanks goes all to all of them, without them this project would 
+not have been possible. Especially since thor's abyss sprite pack seemed to have fallen 
+off the edge of the earth, luckily cloudius still had it :)
+
+Info:
+------
+ Abyss was mostly intended to be a port from his MVC2 counterpart. There was one move
+in which I was not able to fit in because the sprite's were missing, however he has 
+something in place of that attack that is very similar. He doesn't change into orb form
+in form 3 (the orb was a 3d render in mvc2), as of right now this is as close to a port
+that i could get him to.
+
+------
+-Abyss portrait by Eternaga
+-Abyss sprite's ripped by thor
+-Abyss sounds from Cloudius (http://two.fsphost.com/Cloudius/) (Cloudius & One Winged Angel)
+-Additional abyss sprites for form1 (http://www.mugenchina.org) (sprite pack by: wuwo)

@@ -1,0 +1,24 @@
+[SceneDef]
+spr = final.sff
+
+;------------------------------------
+[Scene 0]
+; Fade
+fadein.time = 200
+fadeout.time = 100
+; Screen color
+clearcolor = 0,0,0
+; Overlay Anims (from 0 to 9)
+layerall.pos = 0,0 ;Default position for all layers
+layer0.anim =  0       ;Anim action number
+bgm = final/final.mid      ;Name of music file to play
+bgm.loop = 0
+; Total time
+end.time = 1500
+
+;------------------------------------
+;Animation for logo
+[Begin Action 0]
+0,0, 0,0, 1400
+0,1, 0,0, 100
+

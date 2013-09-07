@@ -1,0 +1,46 @@
+[Statedef 9901]
+type    = S                      ;State-type: S-stand, C-crouch, A-air, L-liedown
+movetype= A                      ;Move-type: A-attack, I-idle, H-gethit
+physics = N
+anim = 9802
+
+[State 0, PosSet]
+type = PosSet
+trigger1 = 1
+x = (enemy, pos x)
+y = (enemy, pos y)
+
+[State 200, 1]
+type = HitDef
+trigger1 = (enemy,name != "Abyss")
+attr = S, NA                     ;Attribute: Standing, Normal Attack
+damage = 0, 0                  ;Damage that move inflicts, guard damage
+animtype = back;Heavy                 ;Animation type: Light, Medium, Heavy, Back (def: Light)
+guardflag = MA                   ;Flags on how move is to be guarded against
+hitflag = MAF                    ;Flags of conditions that move can hit
+priority = 7, Hit                ;Attack priority: 0 (least) to 7 (most), 4 default
+;Hit/Miss/Dodge type (Def: Hit)
+pausetime = 0, 0                 ;Time attacker pauses, time opponent shakes
+sparkno = 0                      ;Spark anim no (Def: set above)
+sparkxy = -10, -76               ;X-offset for the "hit spark" rel. to p2,
+;Y-offset for the spark rel. to p1
+hitsound = 5, 0                  ;Sound to play on hit
+guardsound = 6, 0                ;Sound to play on guard
+ground.type = High               ;Type: High, Low, Trip (def: Normal)
+ground.slidetime = 5             ;Time that the opponent slides back
+ground.hittime  = 12             ;Time opponent is in hit state
+ground.velocity = 5,-10            ;Velocity at which opponent is pushed
+airguard.velocity = -1.9,-.8     ;Guard velocity in air (def: (air.xvel*1.5, air.yvel/2))
+air.type = High                  ;Type: High, Low, Trip (def: same as ground.type)
+air.velocity = 5,-10           ;X-velocity at which opponent is pushed,
+;Y-velocity at which opponent is pushed
+air.hittime = 50                 ;Time before opponent regains control in air
+getpower = 15,5
+givepower = 41, 15
+fall = 1
+fall.recover = 0
+
+[State 0, DestroySelf]
+type = DestroySelf
+trigger1 = movecontact > 0
+trigger2 = (enemy,name = "Abyss")

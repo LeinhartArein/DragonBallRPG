@@ -1,0 +1,27 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Zarbon"
+displayname = "Zarbon"
+versiondate = 10/09/2011
+mugenversion = 04,14,2002
+author = "The_Heartbreaker"
+pal.defaults = 1,2
+
+[Files]
+sprite = Zarbon.sff
+anim = Zarbon.air
+sound = Zarbon.snd
+cmd = Zarbon.cmd
+cns = Zarbon.cns
+stcommon = common1.cns
+st = Zarbon.cns
+st1 = Helpers
+pal1 = 1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

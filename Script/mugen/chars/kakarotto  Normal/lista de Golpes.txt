@@ -1,0 +1,302 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===LEIA-ME===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+                                         goku  ou kakarotto nome original dele
+
+                                   Leia-Me em português
+
+
+===FICHA===
+nome do autor do char : Franciynaldo rock (de brasilia ceilândia) 
+Nome : kakarotto mais foi batizado na terra de goku
+Anime : Dragon Ball  Dragon Ball Z   Dragon Ball gt  Dragon Ball af
+Versão do Mugen :06,14,2003 win mugen
+Versão : 1.0
+Completo : 100%
+Data de Lançamento : 9/3/2007
+personagem - editado
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===Programas utilizado===,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+.Fight factory
+.Photo shop 8.0
+.zsnes
+.paint
+.gravador de som do windows
+o som foi ripado do meu dbz 
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===Beta testes===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gustavo Pinheiro email magicforever3@hotmail.com
+marcos ainda nao sei o email dele
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===novidade===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                              Ele tem inteligencia artificial
+                     4 modos normal kaioken 3x ssj 2 e ssj 2 no maximo
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===CRÉDITOS===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+                              Autor: FRS GAMES >Franciynaldo 
+                             E-mail:superkakarotto@hotmail.com 
+                               msn tambem e kakarotto@hotmail.com
+
+,,,,,,,,,,,,,,,,,,,,,,,===historia do personagem===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+goku treinou durante um ano com senhor caio do norte e aprendeu a fazer o kaioken e a genki dama e almentou muito o seu poder de luta  23.000 depois de 3 messes ele treinou numa gravidade aumentada em 150 vezes maior que a da terra com isso ele conseguiu fazer o kaioken aumentado 20x e seu poder aumentou para 8.000.000 logo apos ver seus amigos morrerem ele se tornou um ssj e seu novo poder era de 15.000.000 depois da longa luta com freeza ele treinou em outro planeta e aprendeu o tele trasporte quando voltou pra terra seu poder era de 40.000.000 graças a luta que ele teve com freeza foi como um treinamento pra ele depois goku treinou mais 3 anos pra lutar contra os androides e seu poder aumentou 50.000.000 mesmo assim ele perdeu para o androide 19 por causa de uma doença no coraçao quando ele se recuperou ele treinou + um dia na sala do templo que equivale a 1 ano na terra la ele se trasformou em ultra super saiyajin mais ele decidiu nao usar essa trasformaçao por que sua força aumentava muito e sua velocidade diminuia entao depoi que ele saiu da sala do templo ele nao usou mais o ussj e seu novo poder agora era de 250.000.000 duzentos e cinquenta milhoes mesmo com todo esse poder goku foi morto por cell logo apos se morto goku participou de um torneio no outro mundo e na luta contra o fortissimo paikuhan ele se trasformou em ssj 2 e seu novo poder era de 360.000.000 ele treinou mais 7 anos no outro mundo e quando foi lutar contra o poderoso majin vegeta seu poder era de 460.000.000 mesmo asim ele perdeu a luta por nao poder se trasforma no ssj 3 por que ele so podia ficar  1 dia na terra e o ssj 3 consome muita energia o poder do ssj 3 e de 899.999.999 esse era o unico jeito do goku ganha do majin vegeta mesmo assim o vegeta nao ia aceita perde e ia se matar igual fez com majin boo e o goku iria vira po a nao se que o goku tivesse energia para usar o teletrasporte e fugir para bem longe 
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===INSTALAÇÃO===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Para colocar o gohan no seu M.U.G.E.N. primeiro tenha certeza de que há espaço
+no seu System.def abrindo-o com um editor de texto(como Wordpad)e aumentando
+o número de Columns e Rows se necessário.
+Se já tiver espaço,bom.
+Mande todos os arquivos para uma pasta de nome Gohan do futuro  e coloque-a na pasta
+CHARS de seu M.U.G.E.N.
+Agora, entre no arquivo Select.def e procure por uma parte com [Characters]
+escrito.
+Logo embaixo escreva:
+kakarotto  Normal (se quiser que ele esteja no seu jogo)
+kakarotto  Normal, stages/estagio.def (se quiser que ele tenha uma fase própria no ArcadeMode) 
+kakarotto  Normal, stages/estagio.def, music=sound/nomedamusica.def (se quiser que a fase do modoArcade tenha música própria) 
+Se quiser que ela seja o último chefe de seu jogo, acrescente , order=10 logo
+após a música ou o estágio(vindo em últmo lugar),senão, coloque :, order=9
+para que esteja num nível anterior a último chefe.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===O QUE FALTA===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                        
+nada
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===O QUE TEM===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                       .18 golpes
+                                       .15 especiais
+                                       .Sistema de combos
+                                       .Extras
+                                       .3 poses de vitória
+                                       .3 intro
+                                       .Carregamento de ki 
+                                       . teleporte
+                                       . voo
+                                       .Muitos sons todos em portugues
+                                       .2 Paletas
+                                       . final 
+
+                                     é a versão "final"
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===kakarotto===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+Raça : Saiyajin
+Familiares:que morerao (bardock pai),(selipa mae), (raditz irmao mais velho),(son gohan avô de criaçao)
+Familiares: (chichi esposa),(gohan filho mais velho),(goten filho mais novo),(pan neta),(videl nora),( paz  nora), ( goku jr tataraneto)
+Olhos : pretos muda de cor quando transforma
+Cabelo : grisalho,pretos muda de cor quando transforma
+Séries : dragon ball dragon ball z dragon ball gt dragon ball af
+Diciplina: artes marciais 
+ 
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===MODOS DE JOGO===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+normal kaioken 3x ssj 2 & ssj 2 no maximo
+
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===COMANDOS===,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
+-------
+Legenda
+-------
+
+F - Frente
+B - Trás
+D - Baixo
+U - Cima
+DF - Baixo frente
+DB - Baixo trás
+UF - Cima frente
+UB - Cima Traz
+
+-------
+Básicos
+-------
+a - botão a chute fraco
+b - botão b chute medio
+c - botão c magia
+x - botão x soco fraco
+y - botão y soco medio
+z - botão z kaioken & ssj 2 maximo
+------
+Extras
+------
+
+
+.DASH - e so apertar B,B tras F,F frente
+
+.AIR JUMP - Um pulo comum no ar em qualquer direção
+Um pulo aéreo
+
+.Sistema de Combos - Vá apertando os botões de golpes básicos rapidamente
+goku vai espancando seu inimigo do jeito que você quiser da para juntar todos os golpes com sequencia !
+
+-------------
+CARREGAMENTOS
+-------------
+CHARGE - a+b pode ser feito no ar
+goku carrega seu Ki.(3 barras)
+teleporte - x+a pode ser feito no ar
+voar - y+b
+provocaçao - start
+
+--------------------
+Golpes
+--------------------
+
+-----------
+Especiais
+----------- Ja que todo mundo olha no cmd né
+
+[Command]
+name = "kaioken"
+command = z
+time = 1
+[Command]
+name = "ssj2"
+command = a+b
+time = 1
+[Command]
+name = "ssj2maximo"
+command = z
+time = 1
+[Command]
+name = "meteor ss2 max"
+command = D, DB, B, F, c
+time = 30
+[Command]
+name = "3chutes subindo"
+command = ~D, DF, F, a
+time = 7
+[Command]
+name = "goku tornado"
+command = D, DB, B, F, a
+time = 30
+[Command]
+name = "espancamento kaioken"
+command = D, DB, B, F, c
+time = 30
+[Command]
+name = "wkame"
+command = D, DB, B, F, x
+time = 30
+[Command]
+name = "ssj2 combo"
+command = D, DF, F, x
+time = 10
+[Command]
+name = "ssj2 combo2"
+command = D, DF, F, y
+time = 10
+[Command]
+name = "mkame"
+command = D, DB, B, F, y
+time = 30
+[Command]
+name = "shkame"
+command = D, DB, B, F, z
+time = 30
+[Command]
+name = "genkidama"
+command = D, DB, B, F, c
+time = 30
+[Command]
+name = "ssj2 genkidama"
+command = D, DB, B, F, c
+time = 30
+[Command]
+name = "renzoku"
+command = D, DB, B, F, b
+time = 30
+[Command]
+name = "meteor1"
+command = D, DB, B, F, a
+time = 30
+[Command]
+name = "Bukuu Jutsu"
+command = b+y
+[Command]
+name = "fireball"
+command =  c
+time = 1
+[Command]
+name = "goku sequencia"
+command = ~D, DF, F, y
+time = 10
+[Command]
+name = "goku sequencia2"
+command = ~D, DF, F, x
+time = 10
+[Command]
+name = "fazer sequencia aerea2"
+command = ~D, DF, F, a
+time = 10
+[Command]
+name = "fazer sequencia aerea ssj2"
+command = ~F, D, DF, a
+[Command]
+name = "fazer sequencia aerea ssj2"
+command = ~F, D, DF, b
+[Command]
+name = "fireball x3"
+command = ~D, DF, F, c
+time = 7
+[Command]
+name = "taioken"
+command = ~D, DB, B, x
+time = 7
+[Command]
+name = "teleport"
+command = a+x
+[Command]
+name = "ufire"
+command = /UF
+time = 1
+[Command]
+name = "dfire"
+command = /DF
+time = 1
+
+[Command]
+name = "bufire"
+command = /UB
+time = 1
+[Command]
+name = "bdfire"
+command = /DB
+time = 1
+[Command]
+name = "airattack"
+command = ~D, DF, F, b
+[Command]
+name = "airattack"
+command = ~D, DF, F, a
+[Command]
+name = "dbattack"
+command = ~D, DB, B, a
+[Command]
+name = "cicle kick"
+command = ~D, DB, B, b
+time = 7
+[Command]
+name = "rollfwd"
+command = ~D, DF, F, b
+time = 7
+[Command]
+name = "invisible"
+command =  ~D, DB, B, y
+time = 7
+[Command]
+name = "quick"
+command = ~D, DB, B, c
+[Command]
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,===Algumas sequencias que podem ser feitas===,,,,,,,,,,,,,,,,,
+aperte x,a,y faça cicle kick e depois cancele com fazer sequencia aerea2 e depois aperte x,a,y e depois quando o p2 tive caindo faça x,a,y ,b e faça rollfwd e depois faça dbattack e depois faça um camehameha. tem muita sequencia esse goku descubram ai
+
+                               
+                                  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,(((((( AGRADECIMENTOS))))),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ ...e a mim mesmo por nunca desisti de fazer os chars de dbz esperem vou fazer muito mais chars melhores que esse
+ ...ao meu pc AMD ATLON 64 3800+ super veloz que me permite terminar meus personagems mais rapido
+ ...... Ao grande akira toriama criador do melhor anime do mundo db dbz e gt e os 26 filmes e ovas
+ ...  e a todos criadores de quem eu usei alguns efeitos espero que não se zanguem eu so quero fazer boms personagens parecidos com os do desenho espero que entendam 
+ ... a bandai e a atari pelos jogos de ps2 hehehe  recomendo que joguem o dragon ball sparking neo do ps2 eu zerei 100% tem 130 personagems e d++++++++++++++++++++++++
+ ... e finalmente ao meu amigo gustavo pinheiro por me ensentiva a fazer os chars e me ajuda com um monte de coisas valeuuuu.
+ ... ao kakaroto por que eu usei a base do goku dele pra fazer esse aqui
+ ... os sprites do goku ssj 2 foram ripados por deathilinator que e um dos membros da equipe frs games gustavo
+
+                       
+

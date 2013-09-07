@@ -1,0 +1,26 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="FusedRobotPilaf"
+displayname ="Pilaf Machine"
+versiondate = 
+mugenversion = 
+author ="GokuSSJ5"
+pal.defaults =1
+
+[Files]
+sprite =FusedRobotPilaf.sff
+anim =FusedRobotPilaf.air
+sound =FusedRobotPilaf.snd
+cmd =FusedRobotPilaf.cmd
+cns =FusedRobotPilaf.cns
+stcommon =common1.cns
+st =FusedRobotPilaf.cns
+pal1=FusedRobotPilaf.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

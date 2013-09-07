@@ -1,0 +1,31 @@
+[Info]
+name="||>(Zerberus-:-Dante)<|| Gohan Sword`s User"
+displayname="Gohan Tipo-Z"
+versiondate=01/12/2007
+mugenversion=04,14,2001 & Winmugen
+author="Zerberus_Dante(DgzMember)"
+pal.defaults=1,2,3,4,5,6,7,8
+[Files]
+sprite=gohanm.sff
+sound=GohanM.snd
+anim=gohanm.air
+cmd=gohanm.cmd
+cns=gohanm.cns
+st=gohanm.cns
+stcommon=common1.cns
+pal1=gohanm2.act
+pal2=gohanm.act
+pal3=gohanm3.act
+pal4=gohanm4.act
+pal5=gohanmBlack.act
+pal6=gohanm2.act
+pal7=gohanm.act
+pal8=gohanm3.act
+pal9=
+pal10=
+st1=Hypers.cns
+st2=Helpers.cns
+st3=
+[Arcade]
+intro.storyboard=
+ending.storyboard=

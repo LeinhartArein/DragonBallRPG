@@ -1,0 +1,121 @@
+
+
+\ \      / /| ____)/  _____|| |(___   ___)/  \
+ \ \    / / | |    | /      | |    | |   / __ \
+  \ \  / /  | |__  | |  ___ | |    | |  / (__) \
+   \ \/ /   |  __| | | |__ \| |    | |  |  __  |
+    \  /    | |___ | \___/ /| |    | |  | |  | |
+     \/     |_____)\______/ |_|    |_|  |_|  |_|
+ 
+                  By DGZ TEAM
+---http://caballerosz.metropoliglobal.com/phpBB2/index.php-------
+
+
+ Vegita is a Saiya-jin prince. He originally came to Earth for the 
+Dragon Balls, so that he can gain immortality. However, on Namek, some 
+twists make him slowly come onto the good side, although he is always 
+untrustworthy. In this game, he has an M on his forward that stands for 
+“Majin”, which means evil. Therefore, he is referred to as Majin 
+Vegita, since Babidi possesses him.
+
+
+Programador: Mugenfan2005 and Francinaldo
+Sprites : Nachonal/Mugenfan2005 
+sonido ripeado por: Mugenfan2005 and Francinaldo
+version : 0.5  ..23/7/06
+=============
+Leyenda
+=============
+
+A boton      : rodillazo
+B boton      : patada fuerte
+C boton      : Counter
+X boton      : puño debil 
+Y boton      : puño fuerte 
+Z boton      : lanzar Ki
+
+adelante      : caminar adelante
+atras         : caminar adelante
+arriba        : saltar
+abajo         : agacharse
+
+Start button  : saludo
+
+=============
+Basicos
+=============
+Dash adelante: adelante x2           (listo) 
+Dash atras   : atras x2              (listo)
+Cargar Ki    ; A button + X button   (50%)*falta sonido grito,efectos de carga 
+Vuelo        : C button + Z button   (90%)*Faltaria un efecto de despegue y el sonido.
+Agarre A     :  (Falta)
+Agarre X     :  (falta)
+A.I. ( inteligencia artificial): 60%
+Cansancio : (90%) falta animarlo.
+=============
+Puños/Patadas
+=============
+Diagonal Kicking: atras, adelante, boton X  
+                                           (90%) *Faltaria un efecto en la punta del pie
+Elbow Smash: abajo, atras, boton B         (listo)
+
+Bakuhatsu Ha: abajo, atras, boton Y
+
+==========
+Ataques de Ki
+==========
+Renzoku Energy Dan: presionar repetidas veces el boton C (listo).*Tip* Produce cansancio
+                    cuando se acaba el ki.
+KienZan:  abajo,adelante, boton A   (100%)
+
+===============
+Super Ataques de Ki
+===============
+Big Bang Attack:    (80%) atras,abajo, atras, boton A 
+Final Flash         (80%) adelante, abajo, adelante , boton B
+Garlic Gun          (80%) adelante, abajo, adelante, boton Z
+Explosion           (80%) atras, abajo, atras, boton x
+Super Bakuhatsu Ha (falta)
+==================
+Super Ataque Meteoro
+==================
+Super Meteo Hitting (falta)
+
+==================
+Combos
+==================
+combo1 : A,B,A,B *tip* puedes alargar la combinacion presionando el C para arrojarle ki 
+                 hacia abajo cuando P2 esta recostado en el suelo.
+                 *Tip2* tambien puedes darle un pisoton a p2 (presionar abajo + patada)
+                 cuando p2 este recostado en el suelo. 
+combo2:  X,Y,X  
+;--------------------------------------------------------------
+
+
+==================
+Agradecimientos
+==================
+
+Akira Toriyama: Por crear este increible anime.Maestro.
+Bandai: Por los juegos ambientados de este gran anime.
+Francinaldo: Por actualizar el char, colocando nuevos movimientos, fx y sonidos.
+Nacho : Por aportar material(sprites)y alentarme a hacer el char.
+Majita: gracias por los efectos FX de explosion.
+        thanks for explode FX sprites.
+Bardock: gracias por aportar tu FX, y ser parte del Team_dgz.
+Damian : por alentarme a hacer el char,ser buen amigo y mostrarme tus proyectos secretos..upps!
+Nadimix: Por ayudar con las webs de Mo y DGZ y por alentarme a hacer el char.
+Jabi: Gracias por estar tan comprometido con el Team yayudarme en programacion las veces que lo necesite. ;)
+Vieja del agua : Criticon jeje ;)
+Guille: Gracias por estar tan comprometido con el Team ;/
+Katana: gracias por ser buen amigo ;) y ser fiel a Mugen online.
+Daki: gracias por decirme donde bajar los capitulos de dbz que buscaba para extraer los sonidos.;)
+Ryudo: Por pedirme betas una y otra y otra..vez.. ;/
+Next: Gracias por desaparecer .XD
+Stich: gracias por estar coomprometido con mugen online y aportar con tus proyectos. ;)
+Rono : Aun te estamos esperando :/
+Equinócio: gracias por el tutorial de inteligencia artificial.;)
+Comunidad Mugen Hispania: Gracias a todos los que la componen, me ayudaron mucho sus tutoriales y consejos.
+AnimeLatino: gracias por tener todo el anime de dbz en descarga directa ;)
+Master SSJ: por Mamon...:/ 
+PodeMugen: gracias por los rips de efectos de melty blood,Capcom vs Snk 2 y efectos de polvo del Kof.

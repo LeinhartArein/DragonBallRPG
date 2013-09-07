@@ -1,0 +1,36 @@
+;Player information
+[Info]
+name ="Abyss"
+displayname ="Abyss"
+versiondate =11,21,2007
+mugenversion =04,14,2001
+author ="Sludge"
+pal.defaults=1
+
+; Files for the player
+[Files]
+cmd     =abyss.cmd
+cns     =abyss.cns
+st      =abyss.cns
+stcommon =abyss_common.cns
+sprite  =abyss.sff
+anim    =abyss.air
+sound=abyss.snd
+pal1=1.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=7.act
+pal8=8.act
+pal9=9.act
+pal10=10.act
+pal11=11.act
+pal12=12.act
+st1=hard.cns
+;st1=normal.cns ;opponent recieve's 20 percent health bonus between forms 
+;st1=easy.cns ;opponent recieve's full health between forms
+[Arcade]
+intro.storyboard=
+ending.storyboard=

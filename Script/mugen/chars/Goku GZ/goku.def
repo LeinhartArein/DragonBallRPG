@@ -1,0 +1,24 @@
+[Info]
+name="Goku"
+displayname="Goku Legend by GZ"
+versiondate=
+mugenversion=
+author="Guerreros Z Team ( GZ )"
+pal.defaults=1.2
+[Files]
+sprite=goku.sff
+sound=goku.snd
+anim=goku.air
+cmd=goku.cmd
+cns=goku.cns
+st=goku.cns
+stcommon=common1.cns
+pal1=paletas/goku.act
+pal2=paletas/blackgoku.act
+pal3=paletas/greengoku.act
+pal4=paletas/marinegoku.act
+pal5=paletas/yellowgoku.act
+pal6=paletas/orangegoku.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

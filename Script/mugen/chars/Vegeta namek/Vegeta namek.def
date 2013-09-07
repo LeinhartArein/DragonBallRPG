@@ -1,0 +1,27 @@
+
+[Info]
+name="Vegeta by DZGTEAM & FRS GAMES"
+displayname=" Vegeta"
+versiondate=08,07,2007
+mugenversion=06,14,2003
+author="Mugenfan2005 DGZ-Team"
+pal.defaults=1,2,3,4,5,6,7,8
+[Files]
+cmd=vegeta.cmd
+cns=vegeta.cns
+st=vegeta.cns
+stcommon=Vegeta_DGZ_common1.cns
+sprite=vegeta.sff
+anim=vegeta.air
+sound=vegeta.snd
+pal1=azul.act
+pal2=2.act
+pal3=3.act
+pal4=4.act
+pal5=5.act
+pal6=6.act
+pal7=7.act
+pal8=8.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=final/final.def

@@ -1,0 +1,65 @@
+=====================
+--Comboing Guide----------------------
+______________________________________________________________
+IMPORTANT ---- Not everything in this guide can be done yet. Its just a teaser of what is to come.
+Also the layouts all screwed, so its a bit confusing to read.
+
+
+I have tried to make Goku as comboable as possible, with out it being so easy that a child (or fanboy) can win with him. I grouped the comboing guide into three sections: Ground, Air and Special.
+
+	GROUND
+	Ground comboing is ok for a while, but I've made Goku's physical attacks 	quite weak, so you won't be able to do much with just ground. Here are the 	main ways to do a ground combo:
+The basic 4 hitter: (4 hits, dumbass)
+x, y, a, b
+		Very obvious, and then this can be easily followed by a strong attack, 		in c or z.
+Introducing the crouch: (6 hits)
+x, D+a, x, y, D+x, a, b
+	This is a little tricky, since mugen sometimes doesn't accept you 	leaving the crouch in a chain, but I can do it, so you should be able to.
+Including the strong attack: (10 hits)
+x, y, D+x, D+y, a, D+a, b, z, (opponent is in the air) x, c
+		Tricky, need to position yourself to hit with the punch just right, and 		follow on quickly. This combo could probably keep going since the 		kick would keep the enemy in the air.
+	The other thing I forgot was that both x (weak punch) and b (medium kick) 	have 2 combos if you press them twice.
+	
+	AIR
+	Goku's true colours really shine in the air. He is able to do infinite combos, 	since I took out juggling, but it isn't as easy as it sounds. Weak attacks will 	never get you more than 5 hits, so you will need to keep hitting the opponent 	away and then dashing to them. Here are some combos:
+Basic: (5 hits)
+x, x, y, a, b
+	Doesn't need any explaining, quite easy since Goku doesn't fall very 	naturally (on purpose of course)
+Basic + Knock up: (6 hits)
+x, x, y, a, b, c
+	The longer you hold down c, the further the enemy will go
+Basic + Knock up + More + Knockdown: (10 hits)
+x, x, y, a, b, c, UU, UU, FF, x, y, b, z
+	This isn't completely accurate! The dashes just represent Goku dashing 	to where the player is, which you will need to judge how to do 	yourself. What dashes you will need will depend on how long you held 	down c, and how long you waited before you started dashing.
+Basic + Knockdown + Basic + Knockdown: (12 hits)
+x, x, y, a, b, z, DD, DD, U, x, x, y, a ,b, z 
+	This is tough, but if you are quick you can catch the opponent as they 	bounce up from the knockdown attack. It will be easier if you hold 	down the knockdown for longer, since the opponent will bounce up 	higher.
+Basic + Chop + Knockup + Basic +Knockdown + Spinning Kick: (14 hits)
+x, x, y, a, b, B+y, c, UU, UU, FF, x, x, y, a, b, z, DD, DD, DD, B+b
+	If you send me a video of you doing this, I'll give you ten bucks.
+	And don't try editing the AI, because I'm not actually going to pay you 	anyway
+
+	SPECIAL
+	Compared to the other comboing methods, specials may be quite easy, in 	particular fireballs, since one or more of them will hit most of the time as long	as the enemy is somewhere in front of Goku. Here are some combos:
+Knee Up + Charged Knockdown + Spinning Kick + Ki Shot x 3 (6 hits)
+F, D, DF, b, z, B+b, D, DF, F, x, x, x
+	Looks hard, but simple compared to the airs. Remember to 			shoot the fireballs the right way though.
+Charged Uppercut (shoyruken) + Ki Shot x 5 + Zanzoken + Elbow: (9 hits)
+z, D, DF, F, y, y, y, y, y, F, DF, F, x, D, DB, B, x
+	It's nine because the uppercut hits for three. A few things to remember 	here. you need to do the zanzoken as soon as you shoot the last ki, 	otherwise it wont work. Also, the timing has to be fairly precise if you 	are to use an elbow at the end, since the enemy will need to be close 	enough to the ground for Goku to use it.
+Spinning Kick (ground) + Ki Shot x 5 + Zanzoken + Elbow + Knee Up + Charged Knockdown + Spinning Kick (air) + Ki Shot x 2 + Zanzoken + Kamehameha: (12 hits)
+D, DB, B, b, D, DF, F, x, x, x, x, x, F, D, DF, x, D, DB, B, x, F, D, DF, b, z, B+b, D, DF, F, x, x, F, D, DF, x, D, DF, F, D, DF, F, x, U
+	Nice little combo there, with a happy kamehameha for the fanboys. It 	would actually be more than 12 hits since kamehameha gives 8 but 	whatever. I aimed the kamehameha upward, by the way, which is why 	there is a U at the end.
+Flying Fist + Super Magical Kick of Doom + Zanzoken + Spinning Kick + Ki Shot x 5 + Zanzoken + Spinning Kick + Ki Shot x 5 + Knockdown + Ki Shot x 5 + Zanzoken + Spinning Kick (ground) + DBZ - Related Energy Attack + Chou Kamehameha: (41 hits):
+D, DB, B, F, x, x (rapid), D, DB, B, F, a, U (aiming the kick), F, D, DF, x, B+b, D, DF, F, x, x, x, x, x, F, DF, F, x, B+b, D, DF, F, x, x, x, x, x, FF, z, D, DF, F, y, y, y, y, y, F, D, DF, x, D, DB, B, b, D, DF, F, D, DF, F, a, D, DF, F, D, DF, F, y
+ 	You can do it! Super Magical Kick of Doom can be aimed anywhere, 	remember to be quick on the zanzokens, don't let the enemy touch the 	ground after they bounce up from the knockdown. It would actually be 	more than 41, but it depends on how many of the balls from the Energy 	attack hit, so I just pretended it was 1.
+
+That was 42 hits from just specials, imagine with all 3 styles together.
+
+Here's an example:
+Basic + Spinning Kick (ground) + Ki Shot x 3 + Zanzoken + Knee Up + Charged Knockdown + Charged Knockdown + Air Basic + Knock Up + Air Basic + Chop + Spinning Kick (air) + Ki Shot x 5 + Kamehameha + Zanzoken + 6 hit ground + Uppercut + Punch + Strong Kick + Flying Fists + Spinning Kick + Kamehameha + Zanzoken + 7 hit ground + Uppercut + Air Basic + Chop + Charged Knockdown + Charged Knockup + Zanzoken + Air Basic + Charged Knockdown. (85 hits)
+
+	Thats the sorta thing you could do, if you were cool like me....<.<>.>
+  
+	
+
