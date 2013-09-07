@@ -1,0 +1,25 @@
+[Info]
+name = "Freezer 1ra Forma"
+displayname = "Freezer 1ra Forma"
+versiondate =07/01/2010
+mugenversion =
+author ="Brayan Girón García"
+pal.defaults =1
+
+[Files]
+cmd	=Freezer-1ra-Forma.cmd
+cns	=Freezer-1ra-Forma.cns
+stcommon=common1.cns
+st	=normal.st
+st1	=especial.st
+st2	=hiper.st
+st3	=over.st
+st4	=ss.st
+sprite	=Freezer-1ra-Forma.sff
+anim	=Freezer-1ra-Forma.air
+sound	=Freezer-1ra-Forma.snd
+pal1	=Freezer-1ra-Forma.act
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=
