@@ -1,0 +1,20 @@
+what's new in 1.15:
+-new attack: "Super Makankosappo"
+-fixed charging state of opponent
+-fixed balance of "Full Power Rush"
+-fixed energy position of Bakurikihama
+
+what's new in 1.1:
+-new attack: "Full Power Rush"
+-fixed without cape version in survival , if Piccolo was second in the queue
+-fixed "Undress Heavy Cape and Turban" which absorbs much energy
+-new fx of Gekiretsu Kodan
+-fixed Fall Recover animation in without cape version
+-fixed positions of some attacks
+-Kikoha Balls can burst , when collide with others blast
+-fixed charge up animation collisions
+
+what's new in 1.01:
+-fixed command a+b for undress a cape and turban
+-fixed positions of light a strong air kicks
+-fixed time of scream in charge

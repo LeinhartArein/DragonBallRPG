@@ -1,0 +1,28 @@
+****************Piccolo by Szowel v. 1.15****************
+
+[Info]
+name ="Piccolo by Szowel"
+displayname ="Piccolo"
+versiondate =15,03,2012
+mugenversion =04,14,2002
+author ="Szowel"
+pal.defaults =1,2,3
+
+; Files for the player
+[Files]
+cmd     =Piccolo.cmd
+cns     =Piccolo.cns
+st      =Piccolo.cns
+stcommon =common1.cns
+sprite  =Piccolo.sff
+anim    =Piccolo.air
+sound   =Piccolo.snd
+pal1=Piccolo.act
+pal2=Piccolo2.act
+pal3=Piccolo3.act
+
+
+; Arcade mode
+[Arcade]
+intro.storyboard =intro.def
+ending.storyboard =ending.def
